@@ -1,0 +1,113 @@
+/* REGOLE DI RESET  */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* REGOLE GENERALI */
+.flex {
+    display: flex;
+}
+
+.flex-wrap {
+    flex-wrap: wrap;
+}
+
+.container1000 {
+    max-width: 1000px;
+    margin:0 auto;
+}
+
+.container1100 {
+    max-width: 1100px;
+    margin:0 auto;
+}
+
+.container1200 {
+    max-width: 1200px;
+    margin:0 auto;
+}
+
+.inline-block {
+    display: inline-block;
+}
+
+.mt10 {
+    margin-top: 10px;
+}
+
+.mt20 {
+    margin-top: 20px;
+}
+
+.mt30 {
+    margin-top: 30px;
+}
+
+.mt40 {
+    margin-top: 40px;
+}
+
+.mt50 {
+    margin-top: 50px;
+}
+
+.mb10 {
+    margin-bottom: 10px;
+}
+
+.mb20 {
+    margin-bottom: 20px;
+}
+
+.mb30 {
+    margin-bottom: 30px;
+}
+
+.mb40 {
+    margin-bottom: 40px;
+}
+
+.mb50 {
+    margin-bottom: 50px;
+}
+
+h1 {
+    font-size: 64px;
+    text-align: center;
+    margin: 30px 0;
+}
+
+body {
+    background-color: #083b4c;
+    color: white;
+}
+
+/* Regole Box */
+.box {
+    width: 120px;
+    height: 120px;
+    margin: 10px;
+    color: black;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box-fizz {
+    background-color: #0cd6a1;
+}
+
+.box-buzz {
+    background-color: #ffd166;
+}
+
+.box-fizzbuzz {
+    background-color: #f0466f;
+}
+
+.box-number {
+    background-color:#1389b2;
+}
